@@ -1,98 +1,32 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
+
     <head>
         <meta charset="utf-8">
-        <style>
-div.container {
-    width: 100%;
-    border: 0px solid #8B008B;
-}
+        <title> Twtplex </title>
+        <link rel="stylesheet" href="estilacho.css">
+        <script src="script.js"></script>
 
-div.container1 {
-    width: 75%;
-    border: 30px solid	;
-    font-family: "Helvetica Neue";
-    padding-top: 15%;
-    padding-right: 10%;
-    padding-bottom: 20%;
-    padding-left: 10%;
-    border-color: rgba(227, 227, 227, 1);
-
-}
-
-div.but {
-  text-align: center;
-  font-family: "Helvetica Neue";
-
-}
-
-header {
-    padding-top: 15px;
-    padding-bottom: 15px;
-    color: white;
-    background-color: rgba(120, 6, 145, 1);
-    clear: left;
-    text-align: center;
-    font-family: "Helvetica Neue";
-    font-size: 20px;
-    font-weight: normal;
-
-}
-
-
-h1 {
-    margin-left: 45px;
-    margin-right: 45px;
-    padding-top: 35px;
-    color: black;
-    background-color: #white;
-    text-align: justify;
-    font-family: "Helvetica Neue";
-    font-size: 15px;
-    font-weight: normal;
-}
-
-text1 {
-  font-family: "Helvetica Neue";
-  color: black;
-  font-size: 10px;
-
-}
-
-input[type=text], select {
-    width: 30%;
-    padding: 12px 20px;
-    margin: 8px 0;
-    display: inline-block;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    box-sizing: border-box;
-}
-
-input[type=submit] {
-    width: 30%;
-    background-color: rgba(120, 6, 145, 1);
-    color: white;
-    padding: 14px 20px;
-    margin: 8px 0;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-}
-</style>
-
-<div class="container">
-        <header> <b> Twtplex </b> <br> - Your tweet complexity meter -</header>
     </head>
 
     <body>
-<div class="container1">
-        <h1> "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. " </h1>
-<div class="but">
-          <form action="/action_page.php">
-            <input type="text" id="fname" name="usuario" placeholder="@">
-            <input type="submit" value="Search">
-            <br>
-    <text1>Example: @someone</text1>
-      </body>
+
+        <header> <span class="title"> Twtplex </span> <br> - Your tweet complexity meter - </header>
+
+        <div class="content">
+
+            <p class="text"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+
+            <div style="text-align: center">
+
+                <input type="text" class="input" style="border-radius: 10px" placeholder="@" value="@">
+                <input type="button" class="button" value="Search" onclick="hello();">
+                <p class="subText">Example: @someone</p>
+
+            </div>
+
+        </div>
+
+    </body>
+
 </html>
