@@ -2,25 +2,11 @@
 <html lang="en" dir="ltr">
     <head>
         <meta charset="utf-8">
-        <style>
+        <link rel="stylesheet" href="estilacho.css">
+        <script src="script.js"></script>
 
-
-div.container {
-    width: 100%;
-    border: 0px solid #8B008B;
-}
-
-div.container2 {
-    width: 75%;
-    border: 30px solid	;
-    font-family: "Helvetica Neue";
-    padding-top: 5%;
-    padding-right: 10%;
-    padding-bottom: 20%;
-    padding-left: 10%;
-    border-color: rgba(227, 227, 227, 1);
-    text-align: center;
-}
+    </head>
+        <!-- <style>
 
 div.but {
   text-align: right;
@@ -151,30 +137,31 @@ table.a{
     width: 100%;
 }
 
-</style>
+</style> -->
 
-<div class="container">
-        <header> <b> Twtplex </b> <br> - Your tweet complexity meter -</header>
-    </head>
-
-<!-- HERE'S THE BODY -->
     <body>
-<div class="container2">
-  <h2> Results for: </h2>
-<table class="a">
-  <tr>
-      <td> User tweets:</td>
-      <td> Complexity score: 3/5 </td>
-  </tr>
-  <tr>
-      <td>  </td>
-      <th><br> Aqui deberia de estar la razon de la complejidad de los tweets. </th>
-  </tr>
-</table>
-<div class="but">
-  <br> <br> <input type="submit" value="Share">
- <input type="submit" value="Back">
 
-</div>
-</body>
+        <header> <span class="title"> Twtplex </span> <br> - Your tweet complexity meter - </header>
+
+
+        <div class="content">
+            <h2> Results for: </h2>
+            <table class="a">
+              <tr>
+                  <td> User tweets:</td>
+                  <td> Complexity score: 3/5 </td>
+              </tr>
+              <tr>
+                  <td>  </td>
+                  <th><br> Aqui deberia de estar la razon de la complejidad de los tweets. </th>
+              </tr>
+            </table>
+        <div class="but">
+
+
+        <input type="button" class="button" value="Share" onclick="hello();">
+        <input type="button" class="button" value="Back" onclick="nav('index');">
+
+    </body>
+
 </html>
